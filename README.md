@@ -17,7 +17,7 @@ and get summaries by category or time period.
 ## Setup Instructions
 1. Clone the repository:
    
-   - git clone https://github.com/Ravi-Coding/ExpenseTracker.git
+   - git clone https://github.com/Ravi-Coding/Flow.ai
      
 3. Install Dependencies
    

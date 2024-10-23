@@ -25,7 +25,7 @@ and get summaries by category or time period.
   
 4. .env
    
-    - MONGO_URI=mongodb+srv://Ravi-Coding:<password>@cluster0.gzrbftz.mongodb.net/<databaseName>?retryWrites=true&w=majority&appName=Cluster0
+    - MONGO_URI=mongodb+srv://Ravi-Coding:password@cluster0.gzrbftz.mongodb.net/databaseName?retryWrites=true&w=majority&appName=Cluster0
     - PORT=3004
       
 6. Start server

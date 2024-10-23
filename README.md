@@ -111,5 +111,35 @@ GET /api/summary
         "__v": 0
     }
 ]
-
-    
+3. PUT : http://localhost:3004/api/transactions/671896d8372387371d065f43
+   -Request
+   {
+  "type": "income",
+  "category": "Bonus ",
+  "amount": 15500,
+  "date": "2023-09-13",
+  "description": "December bonus"
+  }
+   - Response
+     {
+    "_id": "671896d8372387371d065f43",
+    "type": "income",
+    "category": "Bonus ",
+    "amount": 15500,
+    "date": "2023-09-13T00:00:00.000Z",
+    "description": "December bonus",
+    "__v": 0
+}
+4. DELETE: http://localhost:3004/api/transactions/671896d8372387371d065f43
+   -Request
+   {
+  "type": "income",
+  "category": "Bonus ",
+  "amount": 15500,
+  "date": "2023-09-13",
+  "description": "December bonus"
+}
+-Response
+{
+    "message": "This Transaction has been deleted Successfully "
+}
